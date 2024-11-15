@@ -13,6 +13,13 @@
 /**
  * @param graph
  */
-void Optimization::optimize(void graph) {
+void Optimization::optimize(Graph graph) {
 
+}
+
+/**
+ * @return double
+ */
+double Optimization::evaluatePerformance() {
+    return 0.0;
 }

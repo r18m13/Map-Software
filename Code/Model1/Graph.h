@@ -9,14 +9,34 @@
 class Graph {
 public: 
     void Part1;
-    void Nodes;
+    vector<string> Nodes;
     void Edges;
+    vector<vector<double>> costMatrix;
+    bool optimizationStatus;
     
-void addNode();
+/**
+ * @param node
+ */
+void addNode(string node);
     
-void addEdge();
+/**
+ * @param node1
+ * @param node2
+ */
+void addEdge(int node1, int node2);
     
 void optimizeGraph();
+    
+/**
+ * @param nodeIndex
+ */
+void removeNode(int nodeIndex);
+    
+/**
+ * @param node1
+ * @param node2
+ */
+void removeEdge(int node1, int node2);
 };
 
 #endif //_GRAPH_H

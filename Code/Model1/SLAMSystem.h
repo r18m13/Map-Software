@@ -8,15 +8,25 @@
 
 class SLAMSystem {
 public: 
-    void graph;
-    void sensors;
-    void robot;
+    Graph graph;
+    vector<Sensor> sensors;
+    Robot robot;
+    void Port1;
+    double processingTime;
+    string status;
     
-void handleRequest();
+/**
+ * @param locationRequest
+ */
+void handleRequest(string locationRequest);
     
 void performSLAM();
     
 void generateMap();
+    
+void initializeSystem();
+    
+void shutdownSystem();
 };
 
 #endif //_SLAMSYSTEM_H

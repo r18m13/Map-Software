@@ -10,6 +10,16 @@
  */
 
 
-void User::requestMap() {
+/**
+ * @return string
+ */
+string User::requestMap() {
+    return "";
+}
+
+/**
+ * @param feedback
+ */
+void User::sendFeedback(string feedback) {
 
 }

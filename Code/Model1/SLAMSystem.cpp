@@ -10,7 +10,10 @@
  */
 
 
-void SLAMSystem::handleRequest() {
+/**
+ * @param locationRequest
+ */
+void SLAMSystem::handleRequest(string locationRequest) {
 
 }
 
@@ -19,5 +22,13 @@ void SLAMSystem::performSLAM() {
 }
 
 void SLAMSystem::generateMap() {
+
+}
+
+void SLAMSystem::initializeSystem() {
+
+}
+
+void SLAMSystem::shutdownSystem() {
 
 }

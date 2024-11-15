@@ -8,10 +8,17 @@
 
 class User {
 public: 
-    void id;
-    void locationRequest;
+    int id;
+    string locationRequest;
+    string name;
+    string email;
     
-void requestMap();
+string requestMap();
+    
+/**
+ * @param feedback
+ */
+void sendFeedback(string feedback);
 };
 
 #endif //_USER_H

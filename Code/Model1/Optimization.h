@@ -8,13 +8,16 @@
 
 class Optimization {
 public: 
-    void error;
-    void optimizationAlgoritm;
+    double error;
+    String optimizationAlgoritm;
+    double convergenceRate;
     
 /**
  * @param graph
  */
-void optimize(void graph);
+void optimize(Graph graph);
+    
+double evaluatePerformance();
 };
 
 #endif //_OPTIMIZATION_H

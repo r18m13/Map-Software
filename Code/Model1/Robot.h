@@ -8,10 +8,21 @@
 
 class Robot {
 public: 
-    void pose;
+    vector<float> pose;
     void map;
+    double batteryStatus;
+    float velocity;
     
-void updatePoseAndMap();
+/**
+ * @param newPose
+ * @param newMap
+ */
+void updatePoseAndMap(vector<float> newPose, void newMap);
+    
+/**
+ * @param destination
+ */
+void navigateToPoint(vector<float> destination);
 };
 
 #endif //_ROBOT_H

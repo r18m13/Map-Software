@@ -10,6 +10,17 @@
  */
 
 
-void Robot::updatePoseAndMap() {
+/**
+ * @param newPose
+ * @param newMap
+ */
+void Robot::updatePoseAndMap(vector<float> newPose, void newMap) {
+
+}
+
+/**
+ * @param destination
+ */
+void Robot::navigateToPoint(vector<float> destination) {
 
 }

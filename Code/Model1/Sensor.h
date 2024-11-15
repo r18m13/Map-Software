@@ -8,10 +8,15 @@
 
 class Sensor {
 public: 
-    void type;
-    void data;
+    string type;
+    string data;
+    double range;
+    void Port1;
+    double resolution;
     
-void acquireData();
+string acquireData();
+    
+void calibrateSensor();
 };
 
 #endif //_SENSOR_H

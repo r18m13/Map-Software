@@ -10,6 +10,13 @@
  */
 
 
-void Sensor::acquireData() {
+/**
+ * @return string
+ */
+string Sensor::acquireData() {
+    return "";
+}
+
+void Sensor::calibrateSensor() {
 
 }

@@ -8,12 +8,20 @@
 
 class FeatureExtractor {
 public: 
-    void extractedFeatures;
+    vector<string> extractedFeatures;
+    string featureType;
     
 /**
  * @param sensorData
  */
-void extractFeatures(void sensorData);
+vector<string> extractFeatures(string sensorData);
+    
+/**
+ * @param rawFeatures
+ */
+vector<string> filterFeatures(vector<string> rawFeatures);
+    
+void visualizeFeatures();
 };
 
 #endif //_FEATUREEXTRACTOR_H
