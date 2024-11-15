@@ -11,7 +11,6 @@ public:
     void Part1;
     vector<string> Nodes;
     void Edges;
-    vector<vector<double>> costMatrix;
     bool optimizationStatus;
     
 /**
@@ -26,17 +25,6 @@ void addNode(string node);
 void addEdge(int node1, int node2);
     
 void optimizeGraph();
-    
-/**
- * @param nodeIndex
- */
-void removeNode(int nodeIndex);
-    
-/**
- * @param node1
- * @param node2
- */
-void removeEdge(int node1, int node2);
 };
 
 #endif //_GRAPH_H

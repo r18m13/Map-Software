@@ -24,11 +24,3 @@ void SLAMSystem::performSLAM() {
 void SLAMSystem::generateMap() {
 
 }
-
-void SLAMSystem::initializeSystem() {
-
-}
-
-void SLAMSystem::shutdownSystem() {
-
-}

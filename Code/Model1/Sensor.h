@@ -15,8 +15,6 @@ public:
     double resolution;
     
 string acquireData();
-    
-void calibrateSensor();
 };
 
 #endif //_SENSOR_H

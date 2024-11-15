@@ -10,7 +10,6 @@ class Robot {
 public: 
     vector<float> pose;
     void map;
-    double batteryStatus;
     float velocity;
     
 /**

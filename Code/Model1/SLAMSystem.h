@@ -12,7 +12,6 @@ public:
     vector<Sensor> sensors;
     Robot robot;
     void Port1;
-    double processingTime;
     string status;
     
 /**
@@ -23,10 +22,6 @@ void handleRequest(string locationRequest);
 void performSLAM();
     
 void generateMap();
-    
-void initializeSystem();
-    
-void shutdownSystem();
 };
 
 #endif //_SLAMSYSTEM_H

@@ -16,7 +16,3 @@
 string Sensor::acquireData() {
     return "";
 }
-
-void Sensor::calibrateSensor() {
-
-}

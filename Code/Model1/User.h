@@ -10,8 +10,6 @@ class User {
 public: 
     int id;
     string locationRequest;
-    string name;
-    string email;
     
 string requestMap();
     

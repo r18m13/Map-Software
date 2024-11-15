@@ -16,11 +16,6 @@ public:
  */
 vector<string> extractFeatures(string sensorData);
     
-/**
- * @param rawFeatures
- */
-vector<string> filterFeatures(vector<string> rawFeatures);
-    
 void visualizeFeatures();
 };
 
