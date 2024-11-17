@@ -4,7 +4,7 @@
 
 
 #include "Optimization.h"
-#include <Graph.h>
+#include "Graph.h"
 
 /**
  * Optimization implementation

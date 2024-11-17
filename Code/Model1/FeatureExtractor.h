@@ -5,6 +5,11 @@
 
 #ifndef _FEATUREEXTRACTOR_H
 #define _FEATUREEXTRACTOR_H
+#include <string>
+#include <vector>
+
+using namespace std;
+
 
 class FeatureExtractor {
 public: 

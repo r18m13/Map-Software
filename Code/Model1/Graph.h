@@ -14,7 +14,7 @@ using namespace std;
 class Graph {
 public: 
     vector<string> Nodes;
-    double Edges;
+    vector<pair<int, int>> Edges;
     bool optimizationStatus;
     
 /**
