@@ -4,6 +4,10 @@
 
 
 #include "User.h"
+#include <string>
+#include <vector>
+
+using namespace std;
 
 /**
  * User implementation

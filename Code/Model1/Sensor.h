@@ -5,13 +5,15 @@
 
 #ifndef _SENSOR_H
 #define _SENSOR_H
+#include <string>
+#include <vector>
 
+using namespace std;
 class Sensor {
 public: 
     string type;
     string data;
     double range;
-    void Port1;
     double resolution;
     
 string acquireData();

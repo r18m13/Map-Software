@@ -14,7 +14,7 @@
  * @param newPose
  * @param newMap
  */
-void Robot::updatePoseAndMap(vector<float> newPose, void newMap) {
+void Robot::updatePoseAndMap(vector<float> newPose, double newMap) {
 
 }
 
