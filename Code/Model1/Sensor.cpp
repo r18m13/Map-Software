@@ -10,9 +10,6 @@
  */
 
 
-/**
- * @return string
- */
-string Sensor::acquireData() {
-    return "";
+void Sensor::acquireData() {
+
 }

@@ -5,20 +5,16 @@
 
 #ifndef _OPTIMIZATION_H
 #define _OPTIMIZATION_H
-#include <string>
-#include <vector>
-
-using namespace std;
 
 class Optimization {
 public: 
-    double error;
-    string optimizationAlgoritm;
+    void error;
+    void optimizationAlgoritm;
     
 /**
  * @param graph
  */
-void optimize(Graph graph);
+void optimize(void graph);
 };
 
 #endif //_OPTIMIZATION_H

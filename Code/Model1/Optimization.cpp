@@ -4,7 +4,6 @@
 
 
 #include "Optimization.h"
-#include "Graph.h"
 
 /**
  * Optimization implementation
@@ -14,6 +13,6 @@
 /**
  * @param graph
  */
-void Optimization::optimize(Graph graph) {
+void Optimization::optimize(void graph) {
 
 }

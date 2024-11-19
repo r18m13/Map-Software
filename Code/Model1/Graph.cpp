@@ -10,18 +10,11 @@
  */
 
 
-/**
- * @param node
- */
-void Graph::addNode(string node) {
+void Graph::addNode() {
 
 }
 
-/**
- * @param node1
- * @param node2
- */
-void Graph::addEdge(int node1, int node2) {
+void Graph::addEdge() {
 
 }
 

@@ -4,11 +4,6 @@
 
 
 #include "FeatureExtractor.h"
-#include <string>
-#include <vector>
-
-using namespace std;
-
 
 /**
  * FeatureExtractor implementation
@@ -17,12 +12,7 @@ using namespace std;
 
 /**
  * @param sensorData
- * @return vector<string>
  */
-vector<string> FeatureExtractor::extractFeatures(string sensorData) {
-    return nullptr;
-}
-
-void FeatureExtractor::visualizeFeatures() {
+void FeatureExtractor::extractFeatures(void sensorData) {
 
 }

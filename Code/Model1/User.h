@@ -5,22 +5,13 @@
 
 #ifndef _USER_H
 #define _USER_H
-#include <string>
-#include <vector>
-
-using namespace std;
 
 class User {
 public: 
-    int id;
-    string locationRequest;
+    void id;
+    void locationRequest;
     
-string requestMap();
-    
-/**
- * @param feedback
- */
-void sendFeedback(string feedback);
+void requestMap();
 };
 
 #endif //_USER_H

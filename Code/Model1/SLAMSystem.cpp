@@ -10,10 +10,7 @@
  */
 
 
-/**
- * @param locationRequest
- */
-void SLAMSystem::handleRequest(string locationRequest) {
+void SLAMSystem::handleRequest() {
 
 }
 

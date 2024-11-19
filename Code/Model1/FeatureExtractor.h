@@ -5,23 +5,15 @@
 
 #ifndef _FEATUREEXTRACTOR_H
 #define _FEATUREEXTRACTOR_H
-#include <string>
-#include <vector>
-
-using namespace std;
-
 
 class FeatureExtractor {
 public: 
-    vector<string> extractedFeatures;
-    string featureType;
+    void extractedFeatures;
     
 /**
  * @param sensorData
  */
-vector<string> extractFeatures(string sensorData);
-    
-void visualizeFeatures();
+void extractFeatures(void sensorData);
 };
 
 #endif //_FEATUREEXTRACTOR_H

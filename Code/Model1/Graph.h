@@ -5,28 +5,16 @@
 
 #ifndef _GRAPH_H
 #define _GRAPH_H
-#include <string>
-#include <vector>
-
-using namespace std;
-
 
 class Graph {
 public: 
-    vector<string> Nodes;
-    vector<pair<int, int>> Edges;
-    bool optimizationStatus;
+    void Part1;
+    void Nodes;
+    void Edges;
     
-/**
- * @param node
- */
-void addNode(string node);
+void addNode();
     
-/**
- * @param node1
- * @param node2
- */
-void addEdge(int node1, int node2);
+void addEdge();
     
 void optimizeGraph();
 };
