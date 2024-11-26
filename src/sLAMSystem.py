@@ -74,7 +74,7 @@ if __name__ == '__main__':
     positions = [
                     pose_0[:3, 3],  # Position of Frame 0
                 ]
-    count = 0
+    count = 1
 
     while True:
 
@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
             slam.graph = temp_arr      
             #print(slam.graph)
-            count = 1
+
                         
             pose_1 = slam.graph
             pose_temp = robot.Robot.updatePoseAndMap(pose_0, pose_1)
