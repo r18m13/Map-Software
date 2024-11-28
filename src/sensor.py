@@ -12,8 +12,8 @@ class Sensor:
         return self.data
         pass
 
-if __name__ == "__main__":
-    sensor = Sensor
-    Sensor.acquireData(sensor)
+#if __name__ == "__main__":
+    #sensor = Sensor
+    #Sensor.acquireData(sensor)
 
     

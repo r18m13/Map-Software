@@ -98,11 +98,11 @@ class SLAMSystem:
                 temp_arr = np.hstack((extracted_R, extracted_t))
                 temp_arr = np.vstack((temp_arr, e_arr))
 
-                slam.graph = temp_arr      
+                #slam.graph = temp_arr      
                 #print(slam.graph)
 
                         
-                pose_1 = slam.graph
+                pose_1 = temp_arr
                 pose_temp = robot.Robot.updatePoseAndMap(pose_0, pose_1)
                 print(count)
                 print(pose_temp)
